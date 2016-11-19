@@ -1,0 +1,44 @@
+/*#index-banner {
+    background-image: url("http://d.ibtimes.co.uk/en/full/1423089/russian-soldiers-flying-red-flag-made-table-cloths-over-ruins-reichstag-berlin.jpg");
+}*/
+#index-banner::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 400px;
+  background-position: 0 -230px;
+  background-image: url("http://d.ibtimes.co.uk/en/full/1423089/russian-soldiers-flying-red-flag-made-table-cloths-over-ruins-reichstag-berlin.jpg");
+}
+#index-banner h4 span {
+    font-size:20px;
+}
+
+
+#committee.collection {
+    border: 0;
+}
+.collection .collection-item {
+    border-bottom: 0px solid #e0e0e0;
+}
+
+#committee a {
+    font-size:16px;
+}
+#committee span{
+    font-size:12px;
+}
+
+.anchor {
+    display: block;
+    height: 100px;
+    margin-top: -100px;
+    visibility: hidden
+}
+.brand-logo {
+    text-transform: uppercase;
+    font-weight: 400
+}
+.brand-logo span {
+    font-weight: 100
+}
